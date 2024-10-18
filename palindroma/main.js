@@ -12,13 +12,13 @@ let newWord = '';
 //facciamo un ciclo for, per ciclare ogni lettera della parola
 for (let i = 0; i < word.length; i++) {
 //salviamo in una variabile tutte le iterazzioni, uttilizziamo il metodo  .at() in maniera negativa per farci ritornare ogni indice che corrisponde ad ogni lettera della parola 
-
+let letter = word.at(-i - 1);
 //richiammiamo la variabile con la stringa vuota per concatennare ogni lettera ciclata e falra diventare una stringa.
-
+newWord += letter;
 //fine ciclo for
-
-//console.log del risultato del valore aggiornato della variabile con la stringa vuota
 }
+//console.log del risultato del valore aggiornato della variabile con la stringa vuota
+console.log(newWord)
 //condizioni
 //Se la variabile e uguale al valor del promt del utente, significa che la stringa e vuota. return true 
 
