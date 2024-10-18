@@ -16,7 +16,9 @@ let pcNum = randomNum()
 //somiamo entrambi i numeri
 let sum = userNum + pcNum
 console.log(userNum, pcNum)
+
 //dichiariamo una variabile messagio 'You lose :('
+let message = 'You lose! :('
 //condizioni
 //se la somma corrisponde alla userChoise ha vinto user
 //console.log messagio
