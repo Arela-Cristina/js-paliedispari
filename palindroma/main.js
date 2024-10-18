@@ -27,3 +27,8 @@ function isApalindromicWord(word) {
     return true
     //se no Return false
 }
+
+//INVOCARE LA FUNZIONE
+//verificare se userInput e una parola palindroma
+let answer = isApalindromicWord(userInput);
+console.log(answer);
