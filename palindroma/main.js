@@ -8,7 +8,7 @@ let userImput = prompt('Dettetore di parole Palindrome, scrivi una parola')
 //Dichiariammo una funzione che ci ritornera un booleano che ci dica  se la parola e palindroma oppure no
 function isApalindromicWord(word) {
 //Dichiariammo una variabile con una stringa vuota, ci servira dopo
-
+let newWord = '';
 //facciamo un ciclo for, per ciclare ogni lettera della parola
 
 //salviamo in una variabile tutte le iterazzioni, uttilizziamo il metodo  .at() in maniera negativa per farci ritornare ogni indice che corrisponde ad ogni lettera della parola 
