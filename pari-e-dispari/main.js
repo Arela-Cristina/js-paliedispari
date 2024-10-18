@@ -9,7 +9,9 @@ function randomNum(){
 //utente sceglie 'par' o 'dispari'
 let userChoice = prompt("Scrivi se il numero sara 'Pari' o 'Dispari'")
 let userNum = parseInt(prompt("Scrivi un numero dal 1 al 6"))
+
 //assegniamo un numero random al pc con la nostra funzione creata
+let pcNum = randomNum()
 //somiamo entrambi i numeri
 //dichiariamo una variabile messagio 'You lose :('
 //condizioni
