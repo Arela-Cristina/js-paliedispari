@@ -7,8 +7,8 @@ function randomNum(){
   }
   
 //utente sceglie 'par' o 'dispari'
-let userChoice = prompt("Scrivi se il numero sara 'Pari' o 'Dispari'")
-let userNum = parseInt(prompt("Scrivi un numero dal 1 al 6"))
+let userChoice = prompt("Scrivi se il numero sara 'pari' o 'dispari'")
+let userNum = parseInt(prompt("Scrivi un numero dal 1 al 5"))
 
 //assegniamo un numero random al pc con la nostra funzione creata
 let pcNum = randomNum()
@@ -22,9 +22,9 @@ let message = 'You lose! :('
 //condizioni
 //se la somma corrisponde alla userChoise ha vinto user
 //console.log messagio
-if (sum % 2 === 0 && userChoice === 'par'){
+if (sum % 2 === 0 && userChoice === 'pari'){
     message = 'You win! :)';
-  } else if  (sum % 2 === 1 && userChoice === 'impar'){
+  } else if  (sum % 2 === 1 && userChoice === 'dispari'){
     message = 'You win! :)';
   }
     
