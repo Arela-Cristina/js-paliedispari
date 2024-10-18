@@ -31,4 +31,4 @@ function isApalindromicWord(word) {
 //INVOCARE LA FUNZIONE
 //verificare se userInput e una parola palindroma
 let answer = isApalindromicWord(userInput);
-console.log(answer);
+console.log('Is a palindromic word?:', answer);
