@@ -10,7 +10,7 @@ function isApalindromicWord(word) {
 //Dichiariammo una variabile con una stringa vuota, ci servira dopo
 let newWord = '';
 //facciamo un ciclo for, per ciclare ogni lettera della parola
-
+for (let i = 0; i < word.length; i++) {
 //salviamo in una variabile tutte le iterazzioni, uttilizziamo il metodo  .at() in maniera negativa per farci ritornare ogni indice che corrisponde ad ogni lettera della parola 
 
 //richiammiamo la variabile con la stringa vuota per concatennare ogni lettera ciclata e falra diventare una stringa.
@@ -18,7 +18,7 @@ let newWord = '';
 //fine ciclo for
 
 //console.log del risultato del valore aggiornato della variabile con la stringa vuota
-
+}
 //condizioni
 //Se la variabile e uguale al valor del promt del utente, significa che la stringa e vuota. return true 
 
