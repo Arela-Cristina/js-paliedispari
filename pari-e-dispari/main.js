@@ -22,3 +22,10 @@ let message = 'You lose! :('
 //condizioni
 //se la somma corrisponde alla userChoise ha vinto user
 //console.log messagio
+if (sum % 2 === 0 && userChoice === 'par'){
+    message = 'You win! :)';
+  } else if  (sum % 2 === 1 && userChoice === 'impar'){
+    message = 'You win! :)';
+  }
+    
+  console.log (message)
