@@ -12,7 +12,10 @@ let userNum = parseInt(prompt("Scrivi un numero dal 1 al 6"))
 
 //assegniamo un numero random al pc con la nostra funzione creata
 let pcNum = randomNum()
+
 //somiamo entrambi i numeri
+let sum = userNum + pcNum
+console.log(userNum, pcNum)
 //dichiariamo una variabile messagio 'You lose :('
 //condizioni
 //se la somma corrisponde alla userChoise ha vinto user
