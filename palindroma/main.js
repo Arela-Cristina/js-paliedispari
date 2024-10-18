@@ -3,7 +3,7 @@
 
 //Chiediamo al utente di inserire una parola atraverso un prompt
 //Salvare il risultato in una variabile
-let userImput = prompt('Dettetore di parole Palindrome, scrivi una parola')
+let userInput = prompt('Dettetore di parole Palindrome, scrivi una parola')
 
 //Dichiariammo una funzione che ci ritornera un booleano che ci dica  se la parola e palindroma oppure no
 function isApalindromicWord(word) {
@@ -21,9 +21,9 @@ function isApalindromicWord(word) {
     console.log(newWord)
     //condizioni
     //Se la variabile e uguale al valor del promt del utente, significa che la stringa e vuota. return true 
-    if (newWord !== userImput) {
-        return False
+    if (newWord !== userInput) {
+        return false
     }
-    return True
+    return true
     //se no Return false
 }
