@@ -13,6 +13,7 @@ function isApalindromicWord(word) {
     for (let i = 0; i < word.length; i++) {
         //salviamo in una variabile tutte le iterazzioni, uttilizziamo il metodo  .at() in maniera negativa per farci ritornare ogni indice che corrisponde ad ogni lettera della parola 
         let letter = word.at(-i - 1);
+        //console.log(`${i} iteraccion i= ${i}, letter = ${letter}`)
         //richiammiamo la variabile con la stringa vuota per concatennare ogni lettera ciclata e falra diventare una stringa.
         newWord += letter;
         //fine ciclo for
