@@ -21,8 +21,9 @@ function isApalindromicWord(word) {
     //console.log del risultato del valore aggiornato della variabile con la stringa vuota
     console.log(newWord)
     //condizioni
+    //confrontiamo entrambe le parole, tutte due in minuscole toLowerCase. oppure tutte due in mayuscole toUpperCase.
     //Se la variabile e uguale al valor del promt del utente, significa che la stringa e vuota. return true 
-    if (newWord !== userInput) {
+    if (newWord.toLowerCase() !== userInput.toLowerCase()) {
         return false
     }
     return true
@@ -33,3 +34,4 @@ function isApalindromicWord(word) {
 //verificare se userInput e una parola palindroma
 let answer = isApalindromicWord(userInput);
 console.log('Is a palindromic word?:', answer);
+
