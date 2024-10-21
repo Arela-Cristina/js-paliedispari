@@ -7,7 +7,8 @@ function randomNum(){
   }
   
 //utente sceglie 'par' o 'dispari'
-let userChoice = prompt("Scrivi se il numero sara 'pari' o 'dispari'")
+let userChoice = prompt("Scrivi se il numero sara 'pari' o 'dispari'");
+userChoice = userChoice.toLowerCase();
 let userNum = parseInt(prompt("Scrivi un numero dal 1 al 5"))
 
 //assegniamo un numero random al pc con la nostra funzione creata
@@ -29,3 +30,6 @@ if (sum % 2 === 0 && userChoice === 'pari'){
   }
     
   console.log (message)
+
+  //consigli
+  //dovevamo fare una funzione per sapere se un numero e pari oppure no, e poi per definire il risultato, dovevamo utilizzare la funzione dentro di una condizione per definire la risposta, cioe se il user ha vinto, oppure ha perso, etc. 
